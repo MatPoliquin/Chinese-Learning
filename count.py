@@ -34,7 +34,7 @@ def count_chinese_words_and_characters_from_file(file_path):
     return total_words, unique_words, total_characters, unique_characters, top_100_words
 
 if __name__ == "__main__":
-    file_path = './subtitles/tmnt-tv/tmnt-se01-e01-translation.txt'  # Replace this with your file path
+    file_path = './subtitles/tmnt-tv/tmnt-se01-e01.txt'  # Replace this with your file path
     total_words, unique_words, total_characters, unique_characters, top_100_words = count_chinese_words_and_characters_from_file(file_path)
 
     print(f"Total number of words: {total_words}")
